@@ -5,6 +5,14 @@
     outline: 0;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -17,4 +25,19 @@ header {
 
 header img {
     width: 127px;
+}
+
+nav {
+    background: #03a9f4;
+    font-size: 20px;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
 }
