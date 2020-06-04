@@ -11,6 +11,7 @@ a:link {
 
 body {
     font-family: Arial, sans-serif;
+    background: #eee;
 }
 
 .container {
@@ -40,4 +41,41 @@ nav ul li {
 
 nav ul li a {
     color: #fff;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.card {
+    width: 250px;
+    height: 480px;
+    font-size: 17px;
+    color: #212121;
+    background: #fff;
+    margin: 5px;
+    padding: 20px;
+    box-shadow: 1px 10px 10px #777;
+}
+.card img {
+    width: 100%;
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+.card a {
+    background: #ff5252;
+    color: #fff;
+    width: 100px;
+    padding: 10px;
+    margin-left: 50%;
+}
+
+.card a:hover {
+    background: #ff4141;
 }
