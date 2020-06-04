@@ -84,3 +84,52 @@ nav ul li a {
 .card a:hover {
     background: #ff4141;
 }
+
+.who-we-are {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.identity {
+    max-width: 300px;
+    margin: 10px;
+}
+
+.identity img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.identity h1 {
+    text-align: center;
+}
+
+.informations {
+    max-width: 700px;
+    margin: 50px;
+}
+
+.informations p {
+    margin-bottom: 20px;
+}
+
+.informations table {
+    width: 100%;
+    background: #ccc;
+}
+
+.informations table thead {
+    background: #999;
+}
+
+.informations table  tbody td {
+    padding-left: 50px;
+    height: 50px;
+}
+
+.informations table tfoot {
+    background: #777777;
+    text-align: center;
+}
+
