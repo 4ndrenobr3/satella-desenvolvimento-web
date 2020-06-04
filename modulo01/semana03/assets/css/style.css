@@ -48,7 +48,7 @@ nav ul li a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin: 50px 0 100px 0;
 }
 .card {
     width: 250px;
@@ -60,6 +60,11 @@ nav ul li a {
     padding: 20px;
     box-shadow: 1px 10px 10px #777;
 }
+
+.card:hover {
+    box-shadow: 1px 10px 10px #03a9f4;
+}
+
 .card img {
     width: 100%;
 }
