@@ -23,31 +23,47 @@
     </ul>
 </nav>
 
-<main class="container">
+<main class="container main-contact">
     <div class="contact">
         <h2>Contato</h2>
         <form>
-            <label for="name">Nome</label>
-            <input type="text" name="name" id="name">
+            <label for="name">
+                Nome
+                <input type="text" name="name" id="name">
+            </label>
 
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email">
+            <label for="email">
+                E-mail
+                <input type="email" name="email" id="email">
+            </label>
 
-            <label for="password">Senha</label>
-            <input type="password" name="password" id="password">
+            <label for="password">
+                Senha
+                <input type="password" name="password" id="password">
+            </label>
 
-            <label for="male">Homem</label>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="female">Mulher</label>
-            <input type="radio" id="female" name="gender" value="female">
+            <fieldset>
+                <legend>Sexo</legend>
+                <label for="male">Homem</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female">Mulher</label>
+                <input type="radio" id="female" name="gender" value="female">
+            </fieldset>
 
-            <label for="states">Estados</label>
-            <select name="states" id="states">
-                <option value="sao-paulo">São Paulo</option>
-                <option value="parana">Paraná</option>
-                <option value="sta-catarina">Santa Catarina</option>
-                <option value="rio-grande-do-sul">Rio Grande do sul</option>
-            </select>
+            <label for="states">
+                Estado
+                <select name="states" id="states">
+                    <option value="sao-paulo">São Paulo</option>
+                    <option value="parana">Paraná</option>
+                    <option value="sta-catarina">Santa Catarina</option>
+                    <option value="rio-grande-do-sul">Rio Grande do sul</option>
+                </select>
+            </label>
+            <label for="text">
+                Fale Um pouco sobre você
+                <textarea name="text" id="text" cols="105" rows="10"></textarea>
+            </label>
+            <button>ENVIAR</button>
         </form>
     </div>
     <div class="tip">

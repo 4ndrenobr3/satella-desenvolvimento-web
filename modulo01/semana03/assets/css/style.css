@@ -133,3 +133,70 @@ nav ul li a {
     text-align: center;
 }
 
+
+.main-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.contact {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contact form button {
+    background: #ff5252;
+    width: 200px;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+    margin-left: 69%;
+    margin-top: 20px;
+}
+
+.contact form input {
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form fieldset{
+    display: flex;
+    padding: 10px;
+}
+
+.contact form fieldset input {
+    width: 100px;
+}
+
+.contact form label select {
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.contact form label textarea {
+    display: flex;
+    margin-left: 10px;
+}
+
+.tip {
+    width: 300px;
+    border: 1px solid #212121;
+    padding: 20px;
+}
