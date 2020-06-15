@@ -49,3 +49,41 @@ header ul li:hover {
 header ul li a {
     text-decoration: none;
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+section h1 {
+    font-size: 40px;
+    margin: 50px;
+}
+
+section form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 10px;
+    margin: 0 10px 10px 0;
+    border: 0;
+}
+
+form textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    padding: 10px;
+    margin: 0 10px 10px 0;
+}
