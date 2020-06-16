@@ -87,3 +87,13 @@ form textarea {
     padding: 10px;
     margin: 0 10px 10px 0;
 }
+
+form button {
+    width: 200px;
+    padding: 10px;
+    margin: 50px;
+    background: #777777;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
