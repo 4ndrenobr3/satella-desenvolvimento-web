@@ -15,7 +15,7 @@
 <body>
     <section>
         <div class="container">
-            <form action="" method="post" id="formContact">
+            <form method="post" id="formContact">
                 <div class="grid-50 mobile-grid-100">
                     <label for="name">Nome</label>
                     <input type="text" name="name" id="name">
@@ -43,6 +43,13 @@
                 </div>
                 <div class="grid-30 mobile-grid-100">
                     <button type="submit">Enviar</button>
+                </div>
+                <div class="grid-70 mobile-grid-100">
+                    <ul>
+                        <li>
+                            <div class="alert">Preencha corretamente todos os campos.</div>
+                        </li>
+                    </ul>
                 </div>
             </form>
         </div>

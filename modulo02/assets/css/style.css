@@ -41,3 +41,23 @@ button {
 button:hover {
     background: #9999ff;
 }
+
+.alert {
+    background: #ff8877;
+    width: 100%;
+    padding: 5px;
+    color: #010;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+.valid {
+    border: 1px solid #00ff00;
+}
+
+.invalid {
+    border: 1px solid #ff0000;
+}
