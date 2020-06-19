@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    background: #ccc;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    margin-top: 50px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #0099ff;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #9999ff;
+}
+
+.alert {
+    background: #ff8877;
+    width: 100%;
+    padding: 5px;
+    color: #010;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+.valid {
+    border: 1px solid #00ff00;
+}
+
+.invalid {
+    border: 1px solid #ff0000;
+}
