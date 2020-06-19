@@ -22,7 +22,7 @@
                 </div>
                 <div class="grid-50 mobile-grid-100">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email">
+                    <input type="text" name="email" id="email">
                 </div>
                 <div class="grid-50 mobile-grid-100">
                     <label for="phone">Telefone</label>
@@ -44,7 +44,7 @@
                 <div class="grid-30 mobile-grid-100">
                     <button type="submit">Enviar</button>
                 </div>
-                <div class="grid-70 mobile-grid-100">
+                <div class="grid-70 mobile-grid-100" id="errorMessage">
                     <ul>
                         <li>
                             <div class="alert">Preencha corretamente todos os campos.</div>
