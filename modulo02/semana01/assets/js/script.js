@@ -35,7 +35,7 @@ const validateData = obj => {
     }
 
 
-    if(obj.phone[0].length < 12 || obj.phone[0].length > 14){
+    if(!/^\(?\d{2}\)?[\s-]?[\s9]?\d{4}-?\d{4}$/.test(obj.phone[0])){
         errors.push('Informe um telefone válido.');
         setBorderColor(obj.phone[1], 'invalid');
     } else {
