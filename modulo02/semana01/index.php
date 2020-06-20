@@ -15,7 +15,7 @@
 <body>
     <section>
         <div class="container">
-            <form method="post" id="formContact">
+            <form action="contato.php" method="post" id="formContact">
                 <div class="grid-50 mobile-grid-100">
                     <label for="name">Nome</label>
                     <input type="text" name="name" id="name">
