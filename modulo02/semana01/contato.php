@@ -11,6 +11,23 @@ function getInput(){
 }
 
 $data = getInput();
+
+function dataValidate($data) {
+    if (strlen($data->nome) < 2) {
+        return false;
+    }
+    if (strlen($data->email) < 6 || strpos($data->email, '@') <= 0 || strpos($data->email, '.')) {
+        return false;
+    }
+    if (strlen($data->phone) > 14){
+        return false;
+    }
+
+    return true;
+}
+
+$userData = dataValidate($data);
+
 $arrayName = explode(' ', trim($data->nome));
 $firstName = ucfirst(strtolower($arrayName[0]));
 $fullName = ucwords(strtolower(implode(' ',$arrayName)));
@@ -47,6 +64,9 @@ switch ($data->subject) {
     <section>
         <div class="grid-100 container">
             <h1>Contato</h1>
+
+            <?php if( $userData ): ?>
+
             <p>Olá <?= $firstName ?>, recebemos sua mensagem , em breve, um de nossos atendentes irá responde-lo</p>
         </div>
         <div class="grid-100 container">
@@ -57,6 +77,12 @@ switch ($data->subject) {
                 <p><strong>Assunto: </strong> <?= $data->subject ?></p>
                 <p><strong>Menssagem: </strong></p>
                 <p><?= $data->message ?></p>
+
+                <?php  else: ?>
+                <p>Dados fornecidos são inválidos!</p>
+                <a href="./index.php">VOLTAR</a>
+                <?php endif; ?>
+
             </div>
         </div>
     </section>
